@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/p/:file", "destination": "/api/raw?file=:file" }
+  ],
+  "functions": { "api/*.js": { "maxDuration": 20 } }
+}
