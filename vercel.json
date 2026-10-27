@@ -1,9 +1,0 @@
-{
-  "framework": "vite",
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "rewrites": [
-    { "source": "/p/:file", "destination": "/api/raw?file=:file" }
-  ],
-  "functions": { "api/*.js": { "maxDuration": 20 } }
-}
